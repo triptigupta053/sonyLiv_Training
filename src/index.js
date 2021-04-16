@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import HomePage from "./Components/HomePage";
 import ApiCall from  './Components/ApiCall';
 import { BrowserRouter } from 'react-router-dom';
+import Root from './Components/Root';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Root />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
